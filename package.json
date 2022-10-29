@@ -4,14 +4,18 @@
   "description": "This assignment will help you learn to create an installable Node.js command line utility.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
   },
+  "bin": {
+    "galosh.js": "./cli.js"
+  },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/comp426-2022-fall/a02-rsericks.git"
   },
   "author": "Ryan Erickson",
-  "license": "SEE LICENSE IN <LICENSE>",
+  "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/comp426-2022-fall/a02-rsericks/issues"
   },
