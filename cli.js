@@ -15,3 +15,5 @@ if (args.h) {
         process.exit(0);
 };
 
+var lattitude = args.n || (args.s *-1);
+var longitude = args.e || (args.w *-1);
